@@ -21,6 +21,6 @@ body.fixed {
     overflow-y: scroll;
 }
 
-body.fixed .content {
+body.fixed .main.container {
     flex: 1;
 }

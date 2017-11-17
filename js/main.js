@@ -1,15 +1,15 @@
 "use strict"
 
-var demoPage = '/demo-content.html',
+var demoPage = './demo-content.html',
 $body = $('body'),
 $content = $('.content'),
 delay = 3000;
 
-// setTimeout(function () {
-//   // $content.load(demoPage);
-// }, delay);
+setTimeout(function () {
+  $content.load(demoPage);
+}, delay);
 
-// Adding styling for fixing the jumping content and making the footer sticky
+// Adding a class with styles to fix the jumping content and setting up the footer sticky
 
 if (location.search === '?fixed') {
   $body.addClass('fixed');
